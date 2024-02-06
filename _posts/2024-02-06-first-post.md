@@ -22,7 +22,10 @@ display_image: true  # change this to true to display the image below the banner
 ### Trivia
 
 I used to be a CS major here at BYU, but i switched to Statistics in the summer of 2023.
+
 I am completely deaf in my left ear! I had a skin growth called "Cholesteatoma" that destroyed my ear bones and ear drum!
+
 My favorite color is neon yellow.
+
 I am a huge fan of Destiny 1/2, Star Wars, Marvel, and Rocket League.
 
