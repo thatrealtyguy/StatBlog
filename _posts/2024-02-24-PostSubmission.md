@@ -28,9 +28,9 @@ Some of the libraries I used made it easier to create my heatmap. The libraries 
 Interestingly enough, tidyverse and the base ggplot functions have most of the tools needed to create a really nice heatmap of your data.
 
 Code:
-\# Loading in libraries \n
-library(tidyverse) \n
-library(ggplot2) \n
+\# Loading in libraries  
+library(tidyverse)  
+library(ggplot2)  
 library(png)
 
 ---
@@ -98,18 +98,22 @@ The steps to plot the heatmap are fairly simple:
 
 Congrats! You should have a wonderful heatmap that plots your data across two dimensions, being filled in by the count/density.
 
+---
+---
+
 ![My Nashville Traffic Stop Heatmap](/assets/img/Nash_Heatmap.png)
 
 If you encounter problems, here are some simple solutions:
 
-# I can't see my background image
+##### I can't see my background image
 If this happens, be sure to set your alpha within the geom_tile() function
 
-# The plot doesn't have the right bounds or buckets
+##### The plot doesn't have the right bounds or buckets
 If this happens, you might need to adjust your buckets when you format your data. If you still have issues, be sure to try to remove unneccessary data, as well as missing values. If you still have bounds problems, try using xlim() and ylim() to force bounds on your heatmap.
 
-# My ggplot isn't working
+##### My ggplot isn't working
 Be sure to include + in between each function, and %>% after the group_by(). If you continue to have problems, check out [this cool help guide](https://ggplot2.tidyverse.org/).
+
 ---
 ---
 
