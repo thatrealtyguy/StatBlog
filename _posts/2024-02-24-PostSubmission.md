@@ -28,9 +28,9 @@ Some of the libraries I used made it easier to create my heatmap. The libraries 
 Interestingly enough, tidyverse and the base ggplot functions have most of the tools needed to create a really nice heatmap of your data.
 
 Code:
-\# Loading in libraries
-library(tidyverse)
-library(ggplot2)
+\# Loading in libraries \n
+library(tidyverse) \n
+library(ggplot2) \n
 library(png)
 
 ---
