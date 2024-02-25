@@ -55,20 +55,20 @@ The last thing we did was we actually made a subset of our data that only includ
 I would also recommend thinking about whether or not you want a heatmap of counts or one of probability/density. The default method is for counts, though density might be what you are looking for. If this is the case, be sure to format your data frame so that instead of counts, it calculates the probability for each section of the heatmap. We did a secondary heatmap with probabilities, which we did by taking the count of each combination and dividing that by the total number of stops and putting that in our 'Count" column which we renamed to 'Probability'
 
 Code:
-\# Cleaning Data
-clean_data <- data |>
-    drop_na(var1) |>
-    drop_na(var2) |>
+\# Cleaning Data  
+clean_data <- data |>  
+    drop_na(var1) |>  
+    drop_na(var2) |>  
     filter(var1 < max_val_of_interest & var1 > min_val_of_interest)
 
-\# Format data for plotting by count
-Heatmap_data <- clean_data |> select(var1, var2)
+\# Format data for plotting by count  
+Heatmap_data <- clean_data |> select(var1, var2)  
 Heatmap_data <- count(Heatmap_data, var1, var2)
 
-\# Format data for plotting by density
-TotalCount <- sum(Heatmap_data$n)
-Heatmap_data_density <- Heatmap_data
-Heatmap_data_density$n <- (Heatmap_data_density$n / TotalCount)
+\# Format data for plotting by density  
+TotalCount <- sum(Heatmap_data$n)  
+Heatmap_data_density <- Heatmap_data  
+Heatmap_data_density$n <- (Heatmap_data_density$n / TotalCount)  
 Heatmap_data_density <- Heatmap_data_density %>% rename(Prob = n)
 
 ---
@@ -98,10 +98,7 @@ The steps to plot the heatmap are fairly simple:
 
 Congrats! You should have a wonderful heatmap that plots your data across two dimensions, being filled in by the count/density.
 
----
----
-
-![My Nashville Traffic Stop Heatmap](/assets/img/Nash_Heatmap.png)
+![My Nashville Traffic Stop Heatmap](assets/img/Nash_Heatmap.png)
 
 If you encounter problems, here are some simple solutions:
 
