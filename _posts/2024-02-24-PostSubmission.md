@@ -98,8 +98,6 @@ The steps to plot the heatmap are fairly simple:
 
 Congrats! You should have a wonderful heatmap that plots your data across two dimensions, being filled in by the count/density.
 
-<img src='/assets/img/Nash_Heatmap.png' alt='My Nashville Traffic Stop Heatmap' />
-
 If you encounter problems, here are some simple solutions:
 
 ##### I can't see my background image
