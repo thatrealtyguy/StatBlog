@@ -31,7 +31,8 @@ I repeated this process for each page of the table.
 The data contained 1,518 entries of weapons. Every single entry included the weapon's damage type, weapon type, and rarity within the 'Name' column along with the name of the weapon. The main part of cleaning was extracting that data from the 'Name' column and putting each element within its own column.
 
 After doing that, I simply removed all weapons that did not include a weapon type (these were either placeholders for other weapons or errors within Destiny Tracker's system). After that, I removed any repeat occurrences of a weapon, which left me with a data set of roughly 1,000 weapons.
-!["Image Error"](/assets/img/Screenshot 2024-03-30 233431.png)
+
+!["Image Error"](../assets/img/Screenshot 2024-03-30 233431.png)
 
 ---
 ---
