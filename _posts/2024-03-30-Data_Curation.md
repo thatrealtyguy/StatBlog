@@ -3,7 +3,7 @@ layout: post
 title:  "Creating the Destiny Guns Data Set"
 date: 2024-03-30
 description: Creating my Data Set   
-image: "/assets/img/Warlords-Ruin-Weapons-featured-Destiny-2.jpg"
+image: "../assets/img/Warlords-Ruin-Weapons-featured-Destiny-2.jpg"
 display_image: true
 ---
 <p class="intro"><span class="dropcap">T</span>here are hundreds of weapons in Bungie's hit game "Destiny 2". I love this game and enjoy playing it often, so I decided to make a dataset that listed every weapon in the game.</p>
