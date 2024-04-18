@@ -1,3 +1,3 @@
-## Another Stat386 Theme
+## My Stat BLog
 
-This is another theme choice for your Stat 386 blog. 
+This is a basic blog for my stats projects. 
